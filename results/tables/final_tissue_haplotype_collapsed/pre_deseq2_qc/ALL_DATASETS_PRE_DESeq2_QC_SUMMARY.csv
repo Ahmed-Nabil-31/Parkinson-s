@@ -1,0 +1,4 @@
+Dataset,Final_Genes,Total_Count_File_Columns,Detected_Sample_Columns,Expected_Samples,Sample_Number,Non_Sample_Columns,Sample_Metadata_Match,Sample_Order,Duplicated_GeneIDs,Numeric_Counts,NA_Counts,Negative_Counts,Integer_Counts,Zero_Count_Genes,Zero_Count_Samples,Condition_Information
+GSE133101,34226,27,25,25,PASS,2,PASS,PASS,PASS,PASS,PASS,PASS,PASS,9185,0,PASS
+GSE136666,34226,12,10,10,PASS,2,PASS,PASS,PASS,PASS,PASS,PASS,PASS,7279,0,PASS
+GSE168496,34226,18,16,16,PASS,2,PASS,PASS,PASS,PASS,PASS,PASS,PASS,8951,0,PASS

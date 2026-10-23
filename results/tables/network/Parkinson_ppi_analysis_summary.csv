@@ -1,0 +1,2 @@
+Cancer,Analysis_Mode,Strict_DEGs,Genes_Used_for_PPI,Padj_Cutoff,LFC_Cutoff,STRING_Score,Network_Nodes,Network_Edges,Hub_Quantile,Number_Hub_Genes
+Parkinson,exploratory,0,42,0.05,1,700,15,20,0.9,2

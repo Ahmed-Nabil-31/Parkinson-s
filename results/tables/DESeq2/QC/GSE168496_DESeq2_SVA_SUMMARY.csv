@@ -1,0 +1,2 @@
+Dataset,Genes_Before_Filter,Genes_After_Filter,Samples,Control_Samples,PD_Samples,Surrogate_Variables,DESeq2_Design
+GSE168496,34226,17272,16,8,8,4,~ SV1 + SV2...SV4 + condition

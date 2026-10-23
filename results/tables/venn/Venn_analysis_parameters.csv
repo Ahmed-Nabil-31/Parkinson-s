@@ -1,0 +1,5 @@
+Parameter,Value
+padj_cutoff,0.05
+absolute_log2FoldChange_cutoff,1
+datasets,"GSE133101, GSE136666, GSE168496"
+comparison,PD vs Control

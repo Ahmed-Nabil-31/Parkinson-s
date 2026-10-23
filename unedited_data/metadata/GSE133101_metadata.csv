@@ -1,0 +1,70 @@
+sample,condition,tissue
+GSM3900032,control,amygdala (AMG)
+GSM3900033,control,amygdala (AMG)
+GSM3900034,control,amygdala (AMG)
+GSM3900035,control,amygdala (AMG)
+GSM3900036,control,amygdala (AMG)
+GSM3900037,control,amygdala (AMG)
+GSM3900038,control,amygdala (AMG)
+GSM3900039,control,amygdala (AMG)
+GSM3900040,PD,amygdala (AMG)
+GSM3900041,PD,amygdala (AMG)
+GSM3900042,PD,amygdala (AMG)
+GSM3900043,PD,amygdala (AMG)
+GSM3900044,PD,amygdala (AMG)
+GSM3900045,PD,amygdala (AMG)
+GSM3900046,PD,amygdala (AMG)
+GSM3900047,PD,amygdala (AMG)
+GSM3900048,PD,amygdala (AMG)
+GSM3900049,PD,amygdala (AMG)
+GSM3900050,PD,amygdala (AMG)
+GSM3900051,PD,amygdala (AMG)
+GSM3900052,PD,amygdala (AMG)
+GSM3900053,PD,amygdala (AMG)
+GSM3900054,PD,amygdala (AMG)
+GSM3900055,control,medil temporal gyrus (MTG)
+GSM3900056,control,medil temporal gyrus (MTG)
+GSM3900057,control,medil temporal gyrus (MTG)
+GSM3900058,control,medil temporal gyrus (MTG)
+GSM3900059,control,medil temporal gyrus (MTG)
+GSM3900060,control,medil temporal gyrus (MTG)
+GSM3900061,control,medil temporal gyrus (MTG)
+GSM3900062,control,medil temporal gyrus (MTG)
+GSM3900063,PD,medil temporal gyrus (MTG)
+GSM3900064,PD,medil temporal gyrus (MTG)
+GSM3900065,PD,medil temporal gyrus (MTG)
+GSM3900066,PD,medil temporal gyrus (MTG)
+GSM3900067,PD,medil temporal gyrus (MTG)
+GSM3900068,PD,medil temporal gyrus (MTG)
+GSM3900069,PD,medil temporal gyrus (MTG)
+GSM3900070,PD,medil temporal gyrus (MTG)
+GSM3900071,PD,medil temporal gyrus (MTG)
+GSM3900072,PD,medil temporal gyrus (MTG)
+GSM3900073,PD,medil temporal gyrus (MTG)
+GSM3900074,PD,medil temporal gyrus (MTG)
+GSM3900075,PD,medil temporal gyrus (MTG)
+GSM3900076,control,Substantia nigra 
+GSM3900077,control,Substantia nigra 
+GSM3900078,control,Substantia nigra 
+GSM3900079,control,Substantia nigra 
+GSM3900080,control,Substantia nigra 
+GSM3900081,control,Substantia nigra 
+GSM3900082,control,Substantia nigra 
+GSM3900083,control,Substantia nigra 
+GSM3900084,control,Substantia nigra 
+GSM3900085,control,Substantia nigra 
+GSM3900086,PD,Substantia nigra 
+GSM3900087,PD,Substantia nigra 
+GSM3900088,PD,Substantia nigra 
+GSM3900089,PD,Substantia nigra 
+GSM3900090,PD,Substantia nigra 
+GSM3900091,PD,Substantia nigra 
+GSM3900092,PD,Substantia nigra 
+GSM3900093,PD,Substantia nigra 
+GSM3900094,PD,Substantia nigra 
+GSM3900095,PD,Substantia nigra 
+GSM3900096,PD,Substantia nigra 
+GSM3900097,PD,Substantia nigra 
+GSM3900098,PD,Substantia nigra 
+GSM3900099,PD,Substantia nigra 
+GSM3900100,PD,Substantia nigra 

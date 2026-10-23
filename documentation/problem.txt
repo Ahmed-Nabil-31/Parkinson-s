@@ -1,0 +1,50 @@
+> a <- import("results/tables/annotated/GSE133101.csv") |>
++   filter(padj < 0.05, abs(log2FoldChange) > 1)
+> 
+> b <- import("results/tables/annotated/GSE136666.csv") |>
++   filter(padj < 0.05, abs(log2FoldChange) > 1)
+> 
+> c <- import("results/tables/annotated/GSE168496.csv") |>
++   filter(padj < 0.05, abs(log2FoldChange) > 1)
+> intersect(a$Gene_Symbol, b$Gene_Symbol)
+[1] "DDX39B" "BRD2"   "EHMT2" 
+> 
+> intersect(a$Gene_ID, b$Gene_ID)
+character(0)
+> head(a$Gene_ID, 10)
+ [1] "ENSG00000091664" "ENSG00000105143" "ENSG00000107147" "ENSG00000108576" "ENSG00000117724"
+ [6] "ENSG00000135643" "ENSG00000137819" "ENSG00000144355" "ENSG00000144550" "ENSG00000151615"
+> head(b$Gene_ID, 10)
+ [1] "ENSG00000075275" "ENSG00000078401" "ENSG00000101188" "ENSG00000102554" "ENSG00000125538"
+ [6] "ENSG00000132437" "ENSG00000134294" "ENSG00000136244" "ENSG00000144891" "ENSG00000145248"
+> grep("^ENSG", a$Gene_ID, value = TRUE)[1:5]
+[1] "ENSG00000091664" "ENSG00000105143" "ENSG00000107147" "ENSG00000108576" "ENSG00000117724"
+> grep("^ENSG", b$Gene_ID, value = TRUE)[1:5]
+[1] "ENSG00000075275" "ENSG00000078401" "ENSG00000101188" "ENSG00000102554" "ENSG00000125538"
+> grep("^ENST", a$Gene_ID, value = TRUE)[1:5]
+[1] NA NA NA NA NA
+> grep("^ENST", b$Gene_ID, value = TRUE)[1:5]
+[1] NA NA NA NA NA
+> a |> filter(Gene_Symbol == "DDX39B") |> select(Gene_ID, Gene_Symbol)
+          Gene_ID Gene_Symbol
+1 ENSG00000230624      DDX39B
+> 
+> b |> filter(Gene_Symbol == "DDX39B") |> select(Gene_ID, Gene_Symbol)
+          Gene_ID Gene_Symbol
+1 ENSG00000198563      DDX39B
+
+
+
+
+ahmed-nabil@ahmed-nabil-ThinkPad-T495s:/media/nabil/ssd/Parkinson-s/results/tables/annotated$ awk -F',' '$1 ~ /\./' GSE133101.csv 
+ahmed-nabil@ahmed-nabil-ThinkPad-T495s:/media/nabil/ssd/Parkinson-s/results/tables/annotated$ awk -F',' '$1 ~ /\./' GSE136666.csv
+ahmed-nabil@ahmed-nabil-ThinkPad-T495s:/media/nabil/ssd/Parkinson-s/results/tables/annotated$ awk -F',' '$1 ~ /\./' GSE168496.csv
+
+paste <(head -n 1 GSE133101_raw_counts.csv | tr ',' '\n' | tail -n +2) <(cut -d',' -f1 GSE133101_metadata.csv | tail -n +2)   (check if rows and columns are same)
+
+echo "Count matrix samples: $(head -n 1 GSE136666_raw_counts.csv | tr ',' '\n' | tail -n +2 | wc -l)" 
+echo "Metadata samples:     $(cut -d',' -f1 GSE136666_metadata.csv | tail -n +2 | wc -l)"
+(check if they are of same number)
+
+diff -s <(head -n 1 GSE136666_raw_counts.csv | tr ',' '\n' | tail -n +2) <(cut -d',' -f1 GSE136666_metadata.csv | tail -n +2) (to check if they are identical)
+

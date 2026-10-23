@@ -1,0 +1,2 @@
+GEO_ID,count_rows,count_columns,metadata_rows,metadata_columns,gene_id_column,unique_gene_ids,duplicated_gene_ids,ensembl_no_version,ensembl_with_version,gene_symbol_column_present,rows_with_gene_symbols,unique_gene_symbols,duplicated_gene_symbols,missing_gene_symbols,count_samples,metadata_samples,matching_sample_ids
+GSE136666,35413,18,16,3,GeneID,35413,0,35413,0,TRUE,35413,33872,724,0,16,16,16
